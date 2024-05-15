@@ -37,10 +37,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
+  justify-content: center;
+  position: relative;
   left: 50%;
-  top: calc(50vh - 180px);
+  width: 100%;
   transform: translateX(-50%);
+  height: 70vh;
 }
 
 .text {
